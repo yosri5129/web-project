@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ceylon Cinnamon Sticks - Spice Haven</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="logo">
+                <h1>Spice Haven</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="products.html">Products</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="cart-icon">
+                <a href="cart.html">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span id="cart-count">0</span>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-banner">
+        <div class="container">
+            <h2>Product Details</h2>
+            <p>Explore our premium Ceylon Cinnamon Sticks</p>
+        </div>
+    </section>
+
+    <section class="product-detail">
+        <div class="container">
+            <div class="product-detail-container">
+                <div class="product-gallery">
+                    <div class="main-image">
+                        <img id="main-product-image" src="images/cinnamon-1.jpg" alt="Ceylon Cinnamon Sticks">
+                    </div>
+                    <div class="thumbnail-images">
+                        <img src="images/cinnamon.jpg" alt="Ceylon Cinnamon Sticks" onclick="changeImage('images/cinnamon.webp')">
+                        <img src="images/cinnamon-2.jpg" alt="Ceylon Cinnamon Sticks - Close Up" onclick="changeImage('images/cinnamon-2.jpg')">
+                        <img src="images/cinnamon-5.jpg" alt="Ceylon Cinnamon Sticks - Package" onclick="changeImage('images/cinnamon-3.webp')">
+                        <img src="images/cinnamon-4.jpg" alt="Ceylon Cinnamon Sticks - In Use" onclick="changeImage('images/cinnamon-4.jpg')">
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h2>Ceylon Cinnamon Sticks</h2>
+                    <div class="product-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                        <span>(42 reviews)</span>
+                    </div>
+                    <div class="product-price">$12.99</div>
+                    <p class="product-description">
+                        Our premium Ceylon cinnamon sticks are sourced directly from Sri Lanka. Known as "true cinnamon," Ceylon cinnamon has a delicate, sweet flavor with notes of citrus. These sticks are perfect for infusing into teas, coffees, and desserts.
+                    </p>
+                    <div class="product-meta">
+                        <p><strong>Origin:</strong> Sri Lanka</p>
+                        <p><strong>Weight:</strong> 50g</p>
+                        <p><strong>Category:</strong> Bark Spices</p>
+                    </div>
+                    <div class="quantity-control">
+                        <button class="decrease-qty">-</button>
+                        <input type="number" value="1" min="1" id="product-quantity">
+                        <button class="increase-qty">+</button>
+                    </div>
+                    <button class="btn primary-btn add-to-cart" data-id="cinn001" data-name="Ceylon Cinnamon Sticks" data-price="12.99">
+                        Add to Cart
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-tabs">
+        <div class="container">
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="description">Description</button>
+                <button class="tab-btn" data-tab="usage">Usage</button>
+                <button class="tab-btn" data-tab="reviews">Reviews</button>
+            </div>
+            <div class="tab-content">
+                <div class="tab-pane active" id="description">
+                    <h3>Product Description</h3>
+                    <p>Ceylon cinnamon, also known as "true cinnamon," is native to Sri Lanka. Unlike its more common cousin, Cassia cinnamon, Ceylon cinnamon has a more delicate, complex flavor profile with sweet and citrusy notes.</p>
+                    <p>Our Ceylon cinnamon sticks are harvested from the inner bark of the Cinnamomum verum tree. The bark is carefully peeled, dried, and rolled into the characteristic quills you see here. The lighter color and thinner, more brittle texture are hallmarks of genuine Ceylon cinnamon.</p>
+                    <p>Ceylon cinnamon contains less coumarin than Cassia cinnamon, making it a healthier choice for regular consumption.</p>
+                </div>
+                <div class="tab-pane" id="usage">
+                    <h3>How to Use</h3>
+                    <p>Ceylon cinnamon sticks can be used in a variety of ways:</p>
+                    <ul>
+                        <li>Add a stick to hot beverages like tea, coffee, or hot chocolate</li>
+                        <li>Use in mulled wine or cider for a warm, spicy flavor</li>
+                        <li>Add to simmering rice pudding or oatmeal</li>
+                        <li>Include in savory dishes like curries and stews</li>
+                        <li>Use as a stirrer for cocktails to add subtle flavor</li>
+                    </ul>
+                    <p>To release more flavor, gently crush or break the stick before using. Remove the stick before serving.</p>
+                </div>
+                <div class="tab-pane" id="reviews">
+                    <h3>Customer Reviews</h3>
+                    <div class="review">
+                        <div class="review-header">
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <div class="review-author">Sarah T.</div>
+                        </div>
+                        <p>These cinnamon sticks are amazing! The flavor is so much more delicate and complex than the cinnamon I've bought at the grocery store. I use them in my morning tea and they make such a difference.</p>
+                    </div>
+                    <div class="review">
+                        <div class="review-header">
+                            <div class="review-rating">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="far fa-star"></i>
+                            </div>
+                            <div class="review-author">Michael R.</div>
+                        </div>
+                        <p>Great quality cinnamon sticks. I can definitely taste the difference between these and the cheaper varieties. They're perfect for my homemade chai tea blend.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="related-products">
+        <div class="container">
+            <h2 class="section-title">You May Also Like</h2>
+            <div class="product-grid">
+                <div class="product-card">
+                    <img src="images/cardamom.jpg" alt="Green Cardamom Pods">
+                    <h3>Green Cardamom Pods</h3>
+                    <p class="price">$14.99</p>
+                    <button class="btn primary-btn add-to-cart" data-id="card001" data-name="Green Cardamom Pods" data-price="14.99">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/cloves.jpg" alt="Whole Cloves">
+                    <h3>Whole Cloves</h3>
+                    <p class="price">$9.99</p>
+                    <button class="btn primary-btn add-to-cart" data-id="clov001" data-name="Whole Cloves" data-price="9.99">Add to Cart</button>
+                </div>
+                <div class="product-card">
+                    <img src="images/star-anise.jpg" alt="Star Anise">
+                    <h3>Star Anise</h3>
+                    <p class="price">$11.99</p>
+                    <button class="btn primary-btn add-to-cart" data-id="star001" data-name="Star Anise" data-price="11.99">Add to Cart</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section about">
+                    <h3>About Spice Haven</h3>
+                    <p>We source the finest spices from around the world to bring authentic flavors to your kitchen.</p>
+                </div>
+                <div class="footer-section links">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="products.html">Products</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact Us</h3>
+                    <p><i class="fas fa-map-marker-alt"></i> 123 Spice Lane, Flavortown, FL 12345</p>
+                    <p><i class="fas fa-phone"></i> (555) 123-4567</p>
+                    <p><i class="fas fa-envelope"></i> info@spicehaven.com</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2023 Spice Haven. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+    <script>
+        // Image gallery functionality
+        function changeImage(src) {
+            document.getElementById('main-product-image').src = src;
+        }
+        
+        // Tab functionality
+        const tabBtns = document.querySelectorAll('.tab-btn');
+        const tabPanes = document.querySelectorAll('.tab-pane');
+        
+        tabBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                // Remove active class from all buttons and panes
+                tabBtns.forEach(b => b.classList.remove('active'));
+                tabPanes.forEach(p => p.classList.remove('active'));
+                
+                // Add active class to clicked button
+                btn.classList.add('active');
+                
+                // Show corresponding tab pane
+                const tabId = btn.getAttribute('data-tab');
+                document.getElementById(tabId).classList.add('active');
+            });
+        });
+        
+        // Quantity controls
+        const decreaseBtn = document.querySelector('.decrease-qty');
+        const increaseBtn = document.querySelector('.increase-qty');
+        const quantityInput = document.getElementById('product-quantity');
+        
+        decreaseBtn.addEventListener('click', () => {
+            if (parseInt(quantityInput.value) > 1) {
+                quantityInput.value = parseInt(quantityInput.value) - 1;
+            }
+        });
+        
+        increaseBtn.addEventListener('click', () => {
+            quantityInput.value = parseInt(quantityInput.value) + 1;
+        });
+    </script>
+</body>
+</html>

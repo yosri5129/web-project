@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="500" viewBox="0 0 800 500">
+  <!-- Background -->
+  <rect width="800" height="500" fill="#F5F5DC" />
+  
+  <!-- Spice shop interior -->
+  <rect x="50" y="100" width="700" height="300" fill="#8B4513" />
+  <rect x="100" y="150" width="600" height="200" fill="#A0522D" />
+  
+  <!-- Shelves with spice jars -->
+  <g>
+    <!-- Top shelf -->
+    <rect x="150" y="170" width="500" height="20" fill="#5E2612" />
+    <!-- Spice jars on top shelf -->
+    <rect x="170" y="130" width="30" height="40" fill="#FFD700" opacity="0.8" />
+    <rect x="210" y="130" width="30" height="40" fill="#FF8C00" opacity="0.8" />
+    <rect x="250" y="130" width="30" height="40" fill="#CD5C5C" opacity="0.8" />
+    <rect x="290" y="130" width="30" height="40" fill="#8B0000" opacity="0.8" />
+    <rect x="330" y="130" width="30" height="40" fill="#556B2F" opacity="0.8" />
+    <rect x="370" y="130" width="30" height="40" fill="#B8860B" opacity="0.8" />
+    <rect x="410" y="130" width="30" height="40" fill="#A0522D" opacity="0.8" />
+    <rect x="450" y="130" width="30" height="40" fill="#8B4513" opacity="0.8" />
+    <rect x="490" y="130" width="30" height="40" fill="#D2691E" opacity="0.8" />
+    <rect x="530" y="130" width="30" height="40" fill="#F4A460" opacity="0.8" />
+    <rect x="570" y="130" width="30" height="40" fill="#DAA520" opacity="0.8" />
+    
+    <!-- Middle shelf -->
+    <rect x="150" y="240" width="500" height="20" fill="#5E2612" />
+    <!-- Spice jars on middle shelf -->
+    <rect x="180" y="200" width="30" height="40" fill="#B22222" opacity="0.8" />
+    <rect x="220" y="200" width="30" height="40" fill="#8B0000" opacity="0.8" />
+    <rect x="260" y="200" width="30" height="40" fill="#CD853F" opacity="0.8" />
+    <rect x="300" y="200" width="30" height="40" fill="#D2691E" opacity="0.8" />
+    <rect x="340" y="200" width="30" height="40" fill="#A52A2A" opacity="0.8" />
+    <rect x="380" y="200" width="30" height="40" fill="#800000" opacity="0.8" />
+    <rect x="420" y="200" width="30" height="40" fill="#8B4513" opacity="0.8" />
+    <rect x="460" y="200" width="30" height="40" fill="#A0522D" opacity="0.8" />
+    <rect x="500" y="200" width="30" height="40" fill="#D2B48C" opacity="0.8" />
+    <rect x="540" y="200" width="30" height="40" fill="#DEB887" opacity="0.8" />
+    
+    <!-- Bottom shelf -->
+    <rect x="150" y="310" width="500" height="20" fill="#5E2612" />
+    <!-- Spice containers on bottom shelf -->
+    <rect x="190" y="270" width="40" height="40" fill="#F5DEB3" opacity="0.8" rx="5" ry="5" />
+    <rect x="240" y="270" width="40" height="40" fill="#FFE4B5" opacity="0.8" rx="5" ry="5" />
+    <rect x="290" y="270" width="40" height="40" fill="#FFDEAD" opacity="0.8" rx="5" ry="5" />
+    <rect x="340" y="270" width="40" height="40" fill="#F5DEB3" opacity="0.8" rx="5" ry="5" />
+    <rect x="390" y="270" width="40" height="40" fill="#FFE4B5" opacity="0.8" rx="5" ry="5" />
+    <rect x="440" y="270" width="40" height="40" fill="#FFDEAD" opacity="0.8" rx="5" ry="5" />
+    <rect x="490" y="270" width="40" height="40" fill="#F5DEB3" opacity="0.8" rx="5" ry="5" />
+    <rect x="540" y="270" width="40" height="40" fill="#FFE4B5" opacity="0.8" rx="5" ry="5" />
+  </g>
+  
+  <!-- Team members (silhouettes) -->
+  <g transform="translate(250, 400)">
+    <!-- Person 1 -->
+    <circle cx="0" cy="0" r="25" fill="#333" />
+    <rect x="-15" y="25" width="30" height="50" fill="#333" />
+    
+    <!-- Person 2 -->
+    <circle cx="100" cy="0" r="25" fill="#333" />
+    <rect x="85" y="25" width="30" height="50" fill="#333" />
+    
+    <!-- Person 3 -->
+    <circle cx="200" cy="0" r="25" fill="#333" />
+    <rect x="185" y="25" width="30" height="50" fill="#333" />
+    
+    <!-- Person 4 -->
+    <circle cx="300" cy="0" r="25" fill="#333" />
+    <rect x="285" y="25" width="30" height="50" fill="#333" />
+  </g>
+  
+  <!-- Store sign -->
+  <rect x="300" y="50" width="200" height="50" fill="#8B4513" />
+  <text x="400" y="85" font-family="Arial" font-size="24" fill="#F5DEB3" text-anchor="middle">Spice Haven</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="100" cy="50" r="30" fill="#CD853F" opacity="0.5" />
+  <circle cx="700" cy="50" r="30" fill="#CD853F" opacity="0.5" />
+</svg>

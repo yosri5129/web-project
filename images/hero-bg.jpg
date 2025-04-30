@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="600" viewBox="0 0 1200 600">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bg-gradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#8B4513" />
+      <stop offset="100%" stop-color="#3E1E0A" />
+    </linearGradient>
+    <pattern id="spice-pattern" width="100" height="100" patternUnits="userSpaceOnUse">
+      <circle cx="50" cy="50" r="2" fill="#D2691E" opacity="0.3" />
+      <circle cx="25" cy="25" r="1.5" fill="#CD853F" opacity="0.2" />
+      <circle cx="75" cy="75" r="1.8" fill="#A0522D" opacity="0.25" />
+      <circle cx="25" cy="75" r="1.2" fill="#F4A460" opacity="0.15" />
+      <circle cx="75" cy="25" r="1.4" fill="#B8860B" opacity="0.2" />
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="600" fill="url(#bg-gradient)" />
+  
+  <!-- Spice pattern overlay -->
+  <rect width="1200" height="600" fill="url(#spice-pattern)" />
+  
+  <!-- Decorative spice elements -->
+  <g opacity="0.6">
+    <!-- Cinnamon stick -->
+    <path d="M200,150 C220,140 240,160 260,150 C280,140 300,160 320,150 C340,140 360,160 380,150" 
+          stroke="#A0522D" stroke-width="12" fill="none" stroke-linecap="round" />
+    
+    <!-- Star anise -->
+    <g transform="translate(900, 200) scale(0.8)">
+      <path d="M0,0 L40,80 L-40,80 Z" fill="#8B4513" transform="rotate(0)" />
+      <path d="M0,0 L40,80 L-40,80 Z" fill="#8B4513" transform="rotate(72)" />
+      <path d="M0,0 L40,80 L-40,80 Z" fill="#8B4513" transform="rotate(144)" />
+      <path d="M0,0 L40,80 L-40,80 Z" fill="#8B4513" transform="rotate(216)" />
+      <path d="M0,0 L40,80 L-40,80 Z" fill="#8B4513" transform="rotate(288)" />
+      <circle cx="0" cy="0" r="15" fill="#3E1E0A" />
+    </g>
+    
+    <!-- Cardamom pods -->
+    <g transform="translate(300, 400)">
+      <ellipse cx="0" cy="0" rx="20" ry="30" fill="#556B2F" />
+      <ellipse cx="50" cy="10" rx="18" ry="28" fill="#556B2F" transform="rotate(15)" />
+      <ellipse cx="-40" cy="-5" rx="19" ry="29" fill="#556B2F" transform="rotate(-10)" />
+    </g>
+    
+    <!-- Scattered peppercorns -->
+    <g>
+      <circle cx="150" cy="250" r="8" fill="#1E1E1E" />
+      <circle cx="180" cy="270" r="6" fill="#1E1E1E" />
+      <circle cx="130" cy="290" r="7" fill="#1E1E1E" />
+      <circle cx="950" cy="350" r="8" fill="#1E1E1E" />
+      <circle cx="980" cy="370" r="6" fill="#1E1E1E" />
+      <circle cx="930" cy="390" r="7" fill="#1E1E1E" />
+    </g>
+    
+    <!-- Turmeric powder -->
+    <path d="M600,500 C650,480 700,520 750,500 C800,480 850,520 900,500" 
+          stroke="#DAA520" stroke-width="30" fill="none" opacity="0.4" />
+  </g>
+  
+  <!-- Subtle vignette overlay -->
+  <radialGradient id="vignette" cx="50%" cy="50%" r="70%" fx="50%" fy="50%">
+    <stop offset="0%" stop-color="transparent" />
+    <stop offset="100%" stop-color="rgba(0,0,0,0.5)" />
+  </radialGradient>
+  <rect width="1200" height="600" fill="url(#vignette)" />
+</svg>

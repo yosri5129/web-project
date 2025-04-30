@@ -1,0 +1,114 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="1200" viewBox="0 0 1200 1200">
+  <!-- Team Member 1 (Sarah Johnson) -->
+  <g transform="translate(0, 0)">
+    <rect width="300" height="300" fill="#F5F5F5" />
+    <circle cx="150" cy="100" r="70" fill="#FFD700" />
+    <circle cx="150" cy="100" r="65" fill="#FFF" />
+    <circle cx="150" cy="100" r="60" fill="#FFD700" />
+    <!-- Stylized face -->
+    <circle cx="130" cy="85" r="8" fill="#333" />
+    <circle cx="170" cy="85" r="8" fill="#333" />
+    <path d="M130,120 Q150,140 170,120" stroke="#333" stroke-width="3" fill="none" />
+    <!-- Hair -->
+    <path d="M90,100 Q150,30 210,100" stroke="#8B4513" stroke-width="25" fill="none" />
+    <!-- Body -->
+    <rect x="120" y="170" width="60" height="100" fill="#A52A2A" />
+    <text x="150" y="250" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">Sarah Johnson</text>
+    <text x="150" y="270" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Founder & CEO</text>
+  </g>
+
+  <!-- Team Member 2 (Michael Chen) -->
+  <g transform="translate(300, 0)">
+    <rect width="300" height="300" fill="#F5F5F5" />
+    <circle cx="150" cy="100" r="70" fill="#4682B4" />
+    <circle cx="150" cy="100" r="65" fill="#FFF" />
+    <circle cx="150" cy="100" r="60" fill="#4682B4" />
+    <!-- Stylized face -->
+    <circle cx="130" cy="85" r="8" fill="#333" />
+    <circle cx="170" cy="85" r="8" fill="#333" />
+    <path d="M130,120 Q150,130 170,120" stroke="#333" stroke-width="3" fill="none" />
+    <!-- Hair -->
+    <path d="M100,60 L200,60 L200,100 L100,100 Z" fill="#000" />
+    <!-- Body -->
+    <rect x="120" y="170" width="60" height="100" fill="#2F4F4F" />
+    <text x="150" y="250" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">Michael Chen</text>
+    <text x="150" y="270" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Head of Sourcing</text>
+  </g>
+
+  <!-- Team Member 3 (Priya Patel) -->
+  <g transform="translate(0, 300)">
+    <rect width="300" height="300" fill="#F5F5F5" />
+    <circle cx="150" cy="100" r="70" fill="#DA70D6" />
+    <circle cx="150" cy="100" r="65" fill="#FFF" />
+    <circle cx="150" cy="100" r="60" fill="#DA70D6" />
+    <!-- Stylized face -->
+    <circle cx="130" cy="85" r="8" fill="#333" />
+    <circle cx="170" cy="85" r="8" fill="#333" />
+    <path d="M130,120 Q150,140 170,120" stroke="#333" stroke-width="3" fill="none" />
+    <!-- Hair -->
+    <path d="M90,60 Q150,20 210,60 L210,120 L90,120 Z" fill="#000" />
+    <!-- Body -->
+    <rect x="120" y="170" width="60" height="100" fill="#9932CC" />
+    <text x="150" y="250" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">Priya Patel</text>
+    <text x="150" y="270" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Master Blender</text>
+  </g>
+
+  <!-- Team Member 4 (David Rodriguez) -->
+  <g transform="translate(300, 300)">
+    <rect width="300" height="300" fill="#F5F5F5" />
+    <circle cx="150" cy="100" r="70" fill="#3CB371" />
+    <circle cx="150" cy="100" r="65" fill="#FFF" />
+    <circle cx="150" cy="100" r="60" fill="#3CB371" />
+    <!-- Stylized face -->
+    <circle cx="130" cy="85" r="8" fill="#333" />
+    <circle cx="170" cy="85" r="8" fill="#333" />
+    <path d="M130,120 Q150,130 170,120" stroke="#333" stroke-width="3" fill="none" />
+    <!-- Hair and beard -->
+    <path d="M110,50 L190,50 L190,100 L110,100 Z" fill="#8B4513" />
+    <path d="M130,120 Q150,150 170,120 L170,140 L130,140 Z" fill="#8B4513" />
+    <!-- Body -->
+    <rect x="120" y="170" width="60" height="100" fill="#2E8B57" />
+    <text x="150" y="250" font-family="Arial" font-size="16" fill="#333" text-anchor="middle">David Rodriguez</text>
+    <text x="150" y="270" font-family="Arial" font-size="12" fill="#666" text-anchor="middle">Quality Control</text>
+  </g>
+
+  <!-- Map Image -->
+  <g transform="translate(600, 0)">
+    <rect width="600" height="600" fill="#E6E6FA" />
+    <!-- Map background -->
+    <rect x="50" y="50" width="500" height="500" fill="#F0F8FF" stroke="#A9A9A9" stroke-width="2" />
+    
+    <!-- Roads -->
+    <line x1="50" y1="200" x2="550" y2="200" stroke="#D3D3D3" stroke-width="15" />
+    <line x1="50" y1="350" x2="550" y2="350" stroke="#D3D3D3" stroke-width="15" />
+    <line x1="200" y1="50" x2="200" y2="550" stroke="#D3D3D3" stroke-width="15" />
+    <line x1="400" y1="50" x2="400" y2="550" stroke="#D3D3D3" stroke-width="15" />
+    
+    <!-- Store location marker -->
+    <circle cx="300" cy="275" r="20" fill="#FF6347" />
+    <circle cx="300" cy="275" r="10" fill="#FFF" />
+    
+    <!-- Nearby landmarks -->
+    <rect x="100" y="100" width="50" height="50" fill="#90EE90" />
+    <rect x="450" y="150" width="60" height="30" fill="#ADD8E6" />
+    <rect x="150" y="400" width="40" height="80" fill="#D8BFD8" />
+    <rect x="400" y="450" width="70" height="40" fill="#FFE4B5" />
+    
+    <!-- Compass -->
+    <circle cx="500" cy="100" r="30" fill="#FFF" stroke="#000" stroke-width="1" />
+    <line x1="500" y1="70" x2="500" y2="130" stroke="#000" stroke-width="1" />
+    <line x1="470" y1="100" x2="530" y2="100" stroke="#000" stroke-width="1" />
+    <text x="500" y="85" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">N</text>
+    <text x="500" y="120" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">S</text>
+    <text x="485" y="100" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">W</text>
+    <text x="515" y="100" font-family="Arial" font-size="12" fill="#000" text-anchor="middle">E</text>
+    
+    <!-- Legend -->
+    <rect x="100" y="500" width="200" height="30" fill="#FFF" stroke="#000" stroke-width="1" />
+    <text x="200" y="520" font-family="Arial" font-size="14" fill="#000" text-anchor="middle">Spice Haven Location</text>
+    <circle cx="120" cy="515" r="10" fill="#FF6347" />
+    <circle cx="120" cy="515" r="5" fill="#FFF" />
+    
+    <text x="300" y="580" font-family="Arial" font-size="18" fill="#333" text-anchor="middle">123 Spice Street, Flavor City, FC 12345</text>
+  </g>
+</svg>
